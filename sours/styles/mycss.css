@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela&display=swap');
+
+body {
+  font-family: Gabriela, sans-serif;
+  background: linear-gradient(0deg, #5b7f8b 0%, #000000 101%);
+}
+
+p {
+  color: rgb(165, 220, 238);
+}
+
+.nav-link {
+  color: rgb(63, 159, 243);
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(105, 103, 236);
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.navbar-toggler {
+  background-color: #5b7f8b;
+}
+
+.nav-link:hover {
+  color: #5b7f8b;
+}
+
+.sidebar {
+  color: rgb(165, 220, 238);
+  background: linear-gradient(0deg, #5b7f8b 0%, #000000 101%);
+}
+
+.card {
+  background: linear-gradient(0deg, #5b7f8b 0%, #000000 101%);
+  color: rgb(165, 220, 238);
+}
+
+.card a {
+  text-decoration: none;
+  color: rgb(165, 220, 238);
+}
+
+.slide-text,
+.footer-text {
+  color: rgb(165, 220, 238);
+  margin: auto auto;
+}
+
+.vk-anim {
+  animation: myAnim 2s ease 0s infinite alternate both;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+header {
+  background: #18181a;
+}
+
+footer,
+.btn-outline-secondary {
+  background: linear-gradient(180deg, #5b7f8b 0%, #000000 101%);
+}
+
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
